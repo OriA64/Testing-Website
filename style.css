@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Cutesy';
+    src: url('fonts/cutesy.woff2') format('woff2'),
+         url('fonts/cutesy.woff') format('woff'),
+         url('fonts/cutesy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f8ff;
+    font-family: 'Cutesy', sans-serif;
+}
+
+.content {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('grass.jpg');
+    background-repeat: repeat;
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-out; /* Ensure smooth transformation */
+    will-change: transform; /* Optimize for transformations */
+}
+
+
+.button-container button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#responseText {
+    font-size: 24px;
+    color: #008000;
+    margin-top: 20px;
+}
+
+#character {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center the div properly */
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.navigation {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 200; /* Higher z-index to ensure it stays on top */
+}
+
+.nav-row {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-placeholder {
+    visibility: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+.navigation button {
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin: 5px;
+    cursor: pointer;
+}

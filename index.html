@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Character World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>THIS IS THE QUESTION</h1>
+        <div class="button-container">
+            <button onclick="response(true)">Yes</button>
+            <button onclick="response(false)">No</button>
+        </div>
+        <p id="responseText"></p>
+    </div>
+    <div id="character"></div> <!-- Fixed character in the center -->
+    <div class="navigation">
+        <div class="nav-row">
+            <button class="nav-placeholder"></button>
+            <button data-direction="up" onmousedown="startMoving('up')" onmouseup="stopMoving()" onmouseleave="stopMoving()">↑</button>
+            <button class="nav-placeholder"></button>
+        </div>
+        <div class="nav-row">
+            <button data-direction="left" onmousedown="startMoving('left')" onmouseup="stopMoving()" onmouseleave="stopMoving()">←</button>
+            <button data-direction="down" onmousedown="startMoving('down')" onmouseup="stopMoving()" onmouseleave="stopMoving()">↓</button>
+            <button data-direction="right" onmousedown="startMoving('right')" onmouseup="stopMoving()" onmouseleave="stopMoving()">→</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
