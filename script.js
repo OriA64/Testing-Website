@@ -4,25 +4,25 @@ document.addEventListener("DOMContentLoaded", function() {
         {text: "HIIIIIII", response: "HIHIHIHIHI ➡️"},
         {text: "bye.", response: "FUCK YOUU GRAHHHH"}
     ]);
-    addQuestion("You know that I love you right?", {x: 2000, y: 2000}, [
+    addQuestion("You know that I love you right?", {x: 3000, y: 2000}, [
         {text: "I LOVE YOU TOOO", response: "YYAYAYAYAYAYAY MWAH MWAH ➡️"},
         {text: "I dont love you 😠", response: "😞"}
     ]);
-    addQuestion("I hope your day has been good <3", {x: 2000, y: 200}, [
+    addQuestion("I hope your day has been good <3", {x: 3000, y: 200}, [
         {text: "It has!", response: "I cant wait for you to tell me about it :3 ⬇️"},
         {text: "It hasnt ", response: "Im sorry, lets talk about it sometime <3 ⬇️ "}
     ]);
-    addQuestion("Well there has been something on my mindddddd", {x: 4000, y: 2000}, [
+    addQuestion("Well there has been something on my mindddddd", {x: 6000, y: 2000}, [
         {text: "What is it?", response: "IDKKKKKK ➡️"},
         {text: "hmmmm?", response: " uhhhmmmmmm ➡️ "}
     ]);
-    addQuestion("I just want to ask youuu", {x: 6000, y: 2000}, [
+    addQuestion("I just want to ask youuu", {x: 9000, y: 2000}, [
         {text: "WHATTT JUST TELL MEE", response: "HAVE PATIENCE ⬇️"},
         {text: "Im waitinggg", response: "only a little longer ⬇️ "}
     ]);
-    addQuestion("Will you be my girlfriend?", {x: 6000, y: 4000}, [
+    addQuestion("Will you be my girlfriend?", {x: 9000, y: 4000}, [
         {text: "YES YES YES", response: "I LOVE YOU I LOVE YOU MWAH MWAH MWAH MWAH"},
-        {text: "YES YES YES", response: "I LOVE YOU I LOVE YOU MWAH WMAH MWAH WMHA"}
+        {text: "YES YES YES", response: "I LOVE YOU SO MUCH BABY AHHHHHH"}
     ]);
 });
 

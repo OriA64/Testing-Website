@@ -15,7 +15,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f0f8ff;
+    background: #5781a5;
     font-family: 'Cutesy', sans-serif;
 }
 
@@ -54,14 +54,12 @@ h1 {
 }
 
 #character {
-    width: 50px;
-    height: 50px;
-    background-color: pink;
+    width: 100px;    /* Width of the character */
+    height: 100px;   /* Height of the character */
+    background-image: url('pfp2.png'); /* Default image showing the character 'idle' */
     position: fixed;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to center the div properly */
-    z-index: 100; /* Ensure it's above other elements */
+    
+    z-index: 100;   /* Ensure it's above other elements */
 }
 
 .navigation {
